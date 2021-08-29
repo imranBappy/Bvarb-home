@@ -1,0 +1,31 @@
+/* .small_to_large{
+    opacity: 0;
+    transform: scale(0.1);
+    transition: all 1.1s ease-in-out;
+}
+.left_effect{
+    opacity: 0;
+    transform:translate(-10%,50px);
+    transition: all 1.5s ease-in-out;
+}
+.right_effect{
+    opacity: 0;
+    transform:translate(10px,50px);
+    transition: all 1.5s ease-in-out;
+}
+.bottom_to_top{
+    transform:translate(0%, 100px);
+    opacity: 0;
+    transition: all .7s ease-in-out;
+}
+
+.top_to_button{
+    transform:translate(0px, -300px);
+    opacity: 0;
+    transition: all .7s ease-in-out;
+}
+.active{
+    transform:scale(1);	
+    transform:translate(0%,0%);
+    opacity: 1;
+} */

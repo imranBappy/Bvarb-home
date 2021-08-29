@@ -1,0 +1,130 @@
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (max-width: 1261px) {
+    .card__scroll{
+        padding: 0;
+        margin-top:100px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    
+}
+@media only screen and (max-width: 1050px) {
+   
+    .introduce__about{
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    .card__wrap>div.card__container>div.card__item__wrap:last-child{
+        margin-top: 100px
+    }
+    .two__layout__wrap>div:first-child{
+        padding-right: 0px;
+        margin-bottom: 50px;
+    }
+    .two__layout__wrap>div:last-child{
+        padding-left: 0px;
+    }
+    .testimonial__video_wrap{
+        margin-bottom: 50px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 800px) {
+    /* arbitrage */
+        div.arbitrage>div.container>div.arbitrage__wrap{
+            width: 100%;
+            height: 800px;
+            position: relative;
+        }
+        div.arbitrage>div.container>div.arbitrage__wrap>div.arbitrage__bg>div.arbitrage__content{
+            justify-content: space-evenly;
+        }
+}
+
+@media only screen and (max-width: 768px) {
+    h2{
+        font-size: 2rem;
+    }
+    
+}
+@media only screen and (max-width: 645px) {
+    .card__wrap>div.card__container>div.card__item__wrap{
+        margin-top: 100px
+    }
+    .card__wrap>div.card__container>div.card__item__wrap:first-child{
+        margin-top: 0px
+    }
+    
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    .navbar__registration__link,
+    .navbar__login__link{
+        display: none !important;
+    }
+    nav.navbar>div.header__container>div.navbar__wrap>div.navbar__links_wrap{
+        min-width:120px;
+    }
+    nav.navbar>div.header__container>div.navbar__wrap>div.navbar__logo_wpar{
+        min-width:124px;
+    }
+    nav.navbar>div.header__container>div.navbar__wrap>div.navbar__links_wrap>a:last-child{
+        flex-shrink: 0;
+    }
+    .introduce__about{
+        min-width: 200px;
+    }
+    .testimonial__bd_img>a{
+        left: -80px;
+
+    }
+    .testimonial__bd_img>a>img{
+        width: 60%;
+    }
+}
+
+
+
+@media only screen and (max-width: 400px) {
+    nav.navbar{
+        height: 60px;
+    }
+    nav.navbar>div.header__container>div.navbar__wrap>div.navbar__links_wrap>a:last-child>img{
+        width: 14px;
+        height: 14px;
+    }
+    nav.navbar>div.header__container>div.navbar__wrap>div.navbar__links_wrap>div.navbar_languages{
+        width: 30px;
+    }
+    nav.navbar>div.header__container>div.navbar__wrap>div.navbar__links_wrap>div.navbar_languages>a>img{
+        width: 30px;
+        height: 30px;
+    }
+    nav.navbar>div.header__container>div.navbar__wrap>div.navbar__links_wrap{
+        min-width:100px;
+    }
+    nav.navbar>div.header__container>div.navbar__wrap>div.navbar__logo_wpar{
+        min-width:124px;
+    }
+    nav.navbar>div.header__container>div.navbar__wrap>div.navbar__logo_wpar>a>img.navbar__logo{
+        width: 100.35px;
+        margin: 0px 10px;
+    }
+    nav.navbar>div.header__container>div.navbar__wrap>div.navbar__links_wrap>a:last-child{
+        width: 30px;
+        height: 30px;
+    }
+    nav.navbar>div.header__container>div.navbar__wrap>div.navbar__links_wrap>a:last-child>img{
+        height: 10.9;
+        width: 10.9;
+    }
+}
