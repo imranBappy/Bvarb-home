@@ -33,6 +33,9 @@
     .testimonial__video_wrap{
         margin-bottom: 50px;
     }
+    .flags{
+        justify-content: space-evenly;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -90,9 +93,27 @@
     .testimonial__bd_img>a>img{
         width: 60%;
     }
+    .footer-nav{
+        justify-content: space-around;
+    }
+    .footer-nav>div:last-child{
+        margin-top: 30px;
+        justify-content: space-evenly;
+        flex-wrap: nowrap;
+    }
+    .play__btn {
+        top: 40%;
+        left: 40%;
+    }
 }
 
 
+@media only screen and (max-width: 450px) {
+    .play__btn {
+        top: 36%;
+        left: 37%;
+    }
+}
 
 @media only screen and (max-width: 400px) {
     nav.navbar{
@@ -126,5 +147,12 @@
     nav.navbar>div.header__container>div.navbar__wrap>div.navbar__links_wrap>a:last-child>img{
         height: 10.9;
         width: 10.9;
+    }
+    .footer-about {
+        min-width: 200px;
+    }
+    .play__btn {
+        top: 36%;
+        left: 35%;    
     }
 }

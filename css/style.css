@@ -106,9 +106,9 @@ html, body{
 }
 
 /* Nav css start */
-div.empty{
+/* div.empty{
     height: 45px;
-}
+} */
 nav.navbar{
     height: 75px;
     width: 100%;
@@ -278,7 +278,10 @@ nav.navbar>div.header__container>div.navbar__wrap>div.navbar__links_wrap>div.nav
 .menu-top>div:last-child>ion-icon{
     cursor: pointer;
 }
-
+#cancel{
+    width: 30px;
+    cursor: pointer;
+}
 
 .menu-login-links{
     display: flex;
@@ -296,4 +299,20 @@ nav.navbar>div.header__container>div.navbar__wrap>div.navbar__links_wrap>div.nav
 }
 .menu-login-links>a:first-child{
     margin-right: 4px;
+}
+
+
+.default_heading_h5 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.default_paragraph {
+    font-size: 16px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    opacity: 0.6;
 }

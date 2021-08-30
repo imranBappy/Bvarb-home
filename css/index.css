@@ -1,12 +1,14 @@
 
 header.header{
-    width: 100%;
+    /* width: 100%; */
     height: 101vh;
-    margin-top: -140px;
+    /* margin-top: -140px; */
     background:url(../img/header-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 header.header>div.header__bg{
     background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.1) 100%);
@@ -14,14 +16,34 @@ header.header>div.header__bg{
     width: 100%;
     height: 101vh;
 }
-header.header>div.header__container>div.header__wrap{
+/* header.header>div.header__container>div */
+.header__wrap{
+    width: 100%;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 100%;
-    height: 101vh;
+    transform: rotate(180deg)
+   
 }
 
+.header__content{
+    flex-basis: 1000px;
+}
+.header__content>p{
+    max-width:550px ;
+    line-height: 28px;
+    margin: 10px 0px;
+}
+.header__content>h1{
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 80px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border-left: 5px solid rgba(196, 163, 107, 1);
+    padding-left: 20px;
+}
 /* arbitrage */
 
 div.arbitrage>div.container>div.arbitrage__wrap{

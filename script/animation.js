@@ -7,7 +7,7 @@
             if(contentPosition < screenPosition){
                 section.classList.add('active')
             }else{
-                // section.classList.remove('active')
+                section.classList.remove('active')
             }
         });
     };
@@ -24,9 +24,8 @@
     scroll_effect('#testimonial', 1, 'active')
     scroll_effect('#footer', 1, 'active');
     scroll_effect('.footer-menu', 1,  'active')
-
-
-
+    scroll_effect('.card__container1', 1,  'active')
+    scroll_effect('.card__container2', 1,  'active')
    
 })();
 
