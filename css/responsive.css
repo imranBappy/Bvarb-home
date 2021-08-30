@@ -16,6 +16,9 @@
         margin-left: 0px;
         margin-top: 50px;
     }
+    .header__content{
+        margin: 0px 30px;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -64,7 +67,12 @@
     .card__wrap>div.card__container>div.card__item__wrap:first-child{
         margin-top: 0px
     }
-    
+    .header__content>h1{
+       font-size: 2rem;
+    }
+    .header__content>p{
+        max-width: 400px;
+    }
 }
 
 
