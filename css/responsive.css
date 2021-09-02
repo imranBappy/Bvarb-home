@@ -1,6 +1,6 @@
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 
-@media only screen and (max-width: 1261px) {
+@media only screen and (max-width: 1316px) {
     .card__scroll{
         padding: 0;
         margin-top:100px;
@@ -10,6 +10,15 @@
 @media only screen and (max-width: 1200px) {
     
 }
+@media only screen and (max-width: 1169px) {
+    .login-input {
+        margin-top: 25px !important;
+    }
+    .login-container>div:first-child{
+        flex-basis: 564px;
+        height: 500px;
+    }
+}
 @media only screen and (max-width: 1050px) {
    
     .introduce__about{
@@ -18,6 +27,12 @@
     }
     .header__content{
         margin: 0px 30px;
+    }
+    .d-lay-wrap{
+        justify-content: space-evenly;
+    }
+    .d-lay-wrap>div:first-child{
+        margin-bottom: 50px;
     }
 }
 
@@ -40,7 +55,12 @@
         justify-content: space-evenly;
     }
 }
+@media only screen and (max-width: 884px) {
+    .table-head>div{
+        margin-top:30px
+    }
 
+}
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 800px) {
     /* arbitrage */
@@ -52,6 +72,11 @@
         div.arbitrage>div.container>div.arbitrage__wrap>div.arbitrage__bg>div.arbitrage__content{
             justify-content: space-evenly;
         }
+        .page__title{
+            font-size: 2.3rem;
+        }
+        .table-head>div>button {
+            flex-basis: 90px;}
 }
 
 @media only screen and (max-width: 768px) {
@@ -113,6 +138,18 @@
         top: 40%;
         left: 40%;
     }
+    .dot__container {
+        right: 35px;
+    }
+    .table-head>div{
+        flex-wrap:wrap;
+
+    }
+    .table-head>div>button{
+        margin-left: 0px;
+        margin-top: 20px !important;
+
+    }
 }
 
 
@@ -120,6 +157,9 @@
     .play__btn {
         top: 36%;
         left: 37%;
+    }
+    .table-head>h3{
+        font-size:1.7rem;
     }
 }
 
@@ -163,4 +203,25 @@
         top: 36%;
         left: 35%;    
     }
+    .footer-flags>h3{
+        font-size: 1.5rem;
+    }
+    .page__title{
+        font-size: 1.5rem;
+        line-height: 48px;
+    }
+    .e_live__page__title {
+        font-size: 2.3rem;
+    }
 }
+@media only screen and (max-width: 391px) {
+    .testimonial__bd_img>a {
+        top: 41px !important;
+        left: -76px;
+    }    
+    .testimonial__bd_img>a>img {
+        width: 54%;
+    }
+}
+
+

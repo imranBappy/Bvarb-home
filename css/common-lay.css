@@ -1,0 +1,75 @@
+.header-wrapper{
+    margin-top:30px;
+    background-image: url(../img/about-h-bg.png);
+    max-width: 1440.0000000000068px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.first__section{
+    margin-top:-70px;
+}
+.first__section>div.container>div.lay-container{
+    border-radius: 	10px 10px 0px 0px;
+}
+.header-content {
+    max-height: 400px;
+    min-height: 330px;
+}
+.lay-container{
+    background: rgba(20, 20, 21, 1);
+    background-image: url(../img/bd.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    position: relative;
+    padding: 0px 20px;
+}
+
+.d-lay-wrap{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px 0px 100px 0px;
+}
+.d-lay-wrap>div.d-lay-img{
+    max-width:530px;
+    z-index: 2;
+}
+.d-lay-wrap>div.d-lay-img>img{
+    width: 100%
+}
+.lay-wrap-info{
+    max-width:443px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    justify-content: center;
+}
+
+.right-e{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index:1;
+}
+.left-e{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index:1;
+}
+
+.d-lay-wrap>div>h4{
+    margin: 24px 0px;
+}
+.d-lay-wrap>div .btn-container{
+    padding: 24px 0px;
+}
+
+/* contact__header__wrap */
+.contact__header__wrap{
+    background: url(../img/Heading-img.png)
+
+}

@@ -13,7 +13,6 @@
     transform:translate(10px,50px);
     transition: all 1.5s ease-in-out;
     transform:scale(0.8);	
-
 }
 .bottom_to_top{
     transform:translate(0%, 100px);
@@ -22,9 +21,9 @@
 }
 
 .top_to_button{
-    transform:translate(0px, -300px);
+    transform:translate(0px, -100px);
     opacity: 0;
-    transition: all .7s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 .active{
     transform:scale(1);	

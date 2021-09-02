@@ -1,0 +1,150 @@
+:root {
+    --btc-color: brown;
+}
+.header-wrapper{
+    background: url(../img/E-live-heading-img.png) !important;
+    background-size: content !important;
+    background-repeat: no-repeat  !important;
+    margin-top: 30px;
+    max-width: 1440.0000000000068px;
+}
+.header-content {
+    max-height: 400px;
+    min-height: 330px;
+}
+
+.lay-container {
+    background-repeat:repeat-y !important;
+    background-size: center;
+    border-radius: 25px 25px 0px 0px;
+    width: 100%;
+}
+.lay-container{
+    background: rgba(20, 20, 21, 1);
+    background-image: url(../img/bd.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    position: relative;
+}
+.default_heading_h1{
+    padding: 15px 0px;
+    border-bottom: 1px solid #000000;
+    padding-top:70px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 80px;
+    color: #FFFFFF;
+}
+.table-head{
+    width: 100%;
+    padding: 30px 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.table-head>div{
+    flex-basis: 459px;
+}
+.table-head>h3{
+    font-size: 36px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.table-head>div{
+    display: flex;
+}
+.table-head>div>button{
+    flex-basis: 113px;
+    
+    height: 54px;
+    background: #C4A36B;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #FFFFFF;
+    border:none;
+    margin-left: 15px;
+}
+.table-head>div>div{
+    display: flex;
+    background: #0C0B0B;
+    border-radius: 8px;
+    padding: 15px 15px;
+    flex-basis: 331px;
+}
+.table-head>div>div>input{
+    background: #0C0B0B;
+    border:none;
+    width: 100%;
+    color: #FFFFFF;
+}
+.table-head>div>div>input:focus{
+    outline: none;
+}
+.table-head>div>div>img{
+    margin-right: 10px;
+}
+.table-head>div>div>input::placeholder{
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    opacity: 0.56;
+}
+.table-wrapper{
+    overflow: auto
+}
+table{
+    width: 100%;
+    padding: 30px 40px;
+    min-width: 65px;
+}
+table>thead>tr>th
+{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+table>tbody>tr>td{
+    font-size: 18px;
+    line-height: 21px;
+    color: #006b1b;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.t-head{
+    padding: 30px 0px;
+    min-width:100px;
+}
+table>thead>tr>th{
+    text-align: left;
+}
+table>thead>tr>th:first-child{
+    padding-left: 30px;
+}
+table>tbody>tr>td:first-child{
+    padding-top: 20px;
+    display: flex;
+}
+.symbol{
+    color:azure;
+    padding:0px 5px;
+}
+table>tbody>tr>td:first-child>span{
+    display: inline-block;
+    padding-top: 5px;
+}
+.BTC{
+    color: orange;
+}
+.eth{
+    color:rgb(6, 41, 136)
+}
+.white{
+    color: #fff;
+}
+.minus{
+    color: rgba(255, 69, 0, 1);
+}
+
